@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header {
+  padding: 22px 0;
+}
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  gap: 6px;
+  display: flex;
+  align-items: center;
+}
+.logo .icon {
+  color: #b88e2f;
+  font-size: 22px;
+}
+.nav {
+  gap: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.header-icons {
+  gap: 22px;
+  font-size: 20px;
+    display: flex;
+  align-items: center;
+}
+.hero {
+  position: relative;
+  height: 260px;
+  background: linear-gradient(rgba(255, 255, 255, 0.6)),
+    url('images/background.jpg') center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-content {
+  text-align: center;
+}
+.hero-content .icon {
+  color: #b88e2f;
+  font-size: 26px;
+  margin-bottom: 6px;
+}
+.hero-content h1 {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.rr {
+  font-size: 14px;
+  font-weight: 600;
+}
+.rr span {
+  margin: 0 6px;
+}
+.checkout-section {
+  margin: 60px 0 90px;
+}
+.tt {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+.tt h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.form-row {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 20px;
+}
+.ff {
+  margin-bottom: 22px;
+}
+.ff label {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.ff input,
+.ff select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #9f9f9f;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.table {
+  padding-top: 6px;
+}
+.one,
+.order-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 1px solid #d9d9d9;
+}
+.order-table-head {
+  font-size: 18px;
+  font-weight: 600;
+}
+.order-row .product-name {
+  color: #9f9f9f;
+  font-size: 15px;
+}
+.order-row.total .label,
+.order-row.total .price {
+  font-size: 18px;
+  font-weight: 600;
+}
+.order-row.total .price {
+  color: #b88e2f;
+}
+.payment-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.payment-option input[type="radio"] {
+  margin-top: 4px;
+  width: 16px;
+  height: 16px;
+  accent-color: #333;
+}
+.payment-option p {
+  font-size: 13.5px;
+  color: #9f9f9f;
+  line-height: 1.5;
+  margin-top: 8px;
+}
+.policy-note {
+  font-size: 13.5px;
+  color: #666;
+  line-height: 1.7;
+  margin: 22px 0 30px;
+}
+.policy-note b {
+  color: #333;
+}
+.place-order-btn {
+  display: inline-block;
+  padding: 16px 60px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600;
+}
+.place-order-btn:hover {
+  background: #333;
+  color: #fff;
+}
+.features-bar {
+  background: #faf3ea;
+  padding: 50px;
+}
+.features-grid {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.feature i {
+  font-size: 34px;
+  color: #333;
+}
+.feature h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.feature p {
+  font-size: 14px;
+  color: #666;
+}
+.footer {
+  background: #fff;
+  padding: 70px 0 30px;
+}
+.footer-col a {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+.newsletter {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #333;
+  padding-bottom: 8px;
+  max-width: 280px;
+}
+.newsletter input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #333;
+}
+.newsletter input::placeholder {
+  color: #9f9f9f;
+}
+.newsletter button {
+  border: none;
+  background: none;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+.footer-divider {
+  border-top: solid #d9d9d9;
+  margin-bottom: 20px;
+}
+.footer-copy {
+  font-size: 14px;
+  color: #333;
+  padding-bottom: 10px;
+}

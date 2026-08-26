@@ -1,0 +1,132 @@
+
+.hero-section {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75)), url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    color: #333;
+}
+.product-card {
+    overflow: hidden;
+    background-color: #F4F5F7;
+}
+
+.product-card img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 3/4;
+    transition: transform 0.4s;
+}
+.badge-sale,
+.badge-new {
+    position: absolute;
+    top:1rem;
+    right: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.badge-sale {
+    background-color: #E97171;
+}
+
+.badge-new {
+    background-color: #2EC1AC;
+}
+.product-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(61, 60, 58, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.product-card:hover .product-overlay {
+    opacity: 1;
+}
+
+
+.product-overlay .d-flex span {
+    color: #fff;
+    cursor: pointer;
+}
+
+.product-overlay .d-flex span:hover {
+    color: #B88E2F;
+}
+.page-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9F1E7;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.page-btn.active,
+.page-btn:hover {
+    background-color: #B88E2F;
+    color: #fff;
+}
+
+.newsletter-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.newsletter-box .form-control {
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    background: transparent;
+    padding: 0 0 5px 0;
+    color: #9F9F9F;
+}
+.newsletter-box .form-control:focus {
+    box-shadow: none;
+    border-color: #000;
+}
+.newsletter-box .form-control::placeholder {
+    color: #9F9F9F;
+}
+.subscribe-btn {
+    background: none;
+    border: none;
+    padding: 0 0 2rem 0;
+    font-size: 0.8rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    white-space: nowrap;
+    color: #000;
+}
+footer a:hover {
+    color: #B88E2F !important;
+}
+footer input.form-control {
+    border-radius: 0;
+    border-bottom: .01rem solid #9F9F9F;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
